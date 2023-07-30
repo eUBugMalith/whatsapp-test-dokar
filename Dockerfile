@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 
 
-RUN npm install && npm install npm start
+RUN npm install && npm start
 
 COPY . .
 
